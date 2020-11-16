@@ -1,0 +1,72 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-title {
+  font-size: 28px;
+  line-height: 1.2;
+  margin-left: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-form {
+  font-size: 28px;
+  line-height: 1.2;
+  margin-left: 40px;
+  width: 538px;
+}
+
+.flag-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-body {
+  margin-left: 40px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.description {
+  font-size: 26px;
+}
+.card-text {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.text-value,
+list-group-item {
+  font-weight: 400;
+}
+
+.flag-img {
+  margin: 60px;
+}
+
+.search-form {
+  padding: 10px;
+}
+
+.card {
+  margin: 10px;
+  display: flex;
+}
